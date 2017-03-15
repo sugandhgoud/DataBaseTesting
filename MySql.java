@@ -18,7 +18,7 @@ public class MySql {
 			System.out.println("Driver loaded");
 			
 			//Give Separate class DriverManager and connection string
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/selenium","root","Chikku4$");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/selenium","root","*******");
 			
 			System.out.println("Connected to Mysql Db");
 			
